@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-07T15:31:04 IST" name="Default suite" finished-at="2025-03-07T15:31:17 IST" duration-ms="12829">
+    <groups>
+    </groups>
+    <test started-at="2025-03-07T15:31:04 IST" name="Default test" finished-at="2025-03-07T15:31:17 IST" duration-ms="12829">
+      <class name="core.testCases.TC001_LoginPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:core.testCases.TC001_LoginPage@3eb25e1a]" started-at="2025-03-07T15:31:04 IST" name="setup" finished-at="2025-03-07T15:31:14 IST" duration-ms="9677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:core.testCases.TC001_LoginPage@3eb25e1a]" started-at="2025-03-07T15:31:16 IST" name="verifyLogin" data-provider="LoginData" finished-at="2025-03-07T15:31:17 IST" duration-ms="1138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BBSSL4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bbssl@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+      </class> <!-- core.testCases.TC001_LoginPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-07T15:31:04 IST" name="Default suite" finished-at="2025-03-07T15:31:17 IST" duration-ms="12829">
+  <suite started-at="2025-03-10T16:46:15 IST" name="Suite" finished-at="2025-03-10T16:47:43 IST" duration-ms="88122">
     <groups>
     </groups>
-    <test started-at="2025-03-07T15:31:04 IST" name="Default test" finished-at="2025-03-07T15:31:17 IST" duration-ms="12829">
-      <class name="core.testCases.TC001_LoginPage">
-        <test-method is-config="true" signature="setup()[pri:0, instance:core.testCases.TC001_LoginPage@3eb25e1a]" started-at="2025-03-07T15:31:04 IST" name="setup" finished-at="2025-03-07T15:31:14 IST" duration-ms="9677" status="PASS">
+    <test started-at="2025-03-10T16:46:15 IST" name="Test" finished-at="2025-03-10T16:47:43 IST" duration-ms="88122">
+      <class name="core.testCases.TC002_HSIMHomePage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:core.testCases.TC002_HSIMHomePage@62ddbd7e]" started-at="2025-03-10T16:46:40 IST" name="setup" finished-at="2025-03-10T16:46:40 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:core.testCases.TC001_LoginPage@3eb25e1a]" started-at="2025-03-07T15:31:16 IST" name="verifyLogin" data-provider="LoginData" finished-at="2025-03-07T15:31:17 IST" duration-ms="1138" status="PASS">
+        <test-method signature="SelectFunction()[pri:0, instance:core.testCases.TC002_HSIMHomePage@62ddbd7e]" started-at="2025-03-10T16:46:40 IST" name="SelectFunction" finished-at="2025-03-10T16:47:43 IST" depends-on-methods="core.testCases.TC001_LoginPage.verifyLogin" duration-ms="63391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectFunction -->
+      </class> <!-- core.testCases.TC002_HSIMHomePage -->
+      <class name="core.testCases.TC001_LoginPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:core.testCases.TC001_LoginPage@179ece50]" started-at="2025-03-10T16:46:15 IST" name="setup" finished-at="2025-03-10T16:46:24 IST" duration-ms="9178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:core.testCases.TC001_LoginPage@179ece50]" started-at="2025-03-10T16:46:26 IST" name="verifyLogin" data-provider="LoginData" finished-at="2025-03-10T16:46:40 IST" duration-ms="13455" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,6 +43,6 @@
           </reporter-output>
         </test-method> <!-- verifyLogin -->
       </class> <!-- core.testCases.TC001_LoginPage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

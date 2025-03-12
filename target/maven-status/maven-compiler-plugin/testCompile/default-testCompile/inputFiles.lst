@@ -1,6 +1,10 @@
-C:\Users\sushanth\eclipse-workspace\core\src\test\java\core\pageObject\BasePage.java
-C:\Users\sushanth\eclipse-workspace\core\src\test\java\core\pageObject\LoginPage.java
-C:\Users\sushanth\eclipse-workspace\core\src\test\java\core\testCases\BaseClass.java
+C:\Users\sushanth\eclipse-workspace\core\src\test\java\core\utilities\ExtentReportManager.java
 C:\Users\sushanth\eclipse-workspace\core\src\test\java\core\testCases\TC001_LoginPage.java
+C:\Users\sushanth\eclipse-workspace\core\src\test\java\core\pageObject\HomePage.java
+C:\Users\sushanth\eclipse-workspace\core\src\test\java\core\testCases\TC002_HSIMHomePage.java
+C:\Users\sushanth\eclipse-workspace\core\src\test\java\core\pageObject\BasePage.java
+C:\Users\sushanth\eclipse-workspace\core\src\test\java\core\pageObject\HSIMHomePage.java
+C:\Users\sushanth\eclipse-workspace\core\src\test\java\core\testCases\BaseClass.java
+C:\Users\sushanth\eclipse-workspace\core\src\test\java\core\pageObject\LoginPage.java
 C:\Users\sushanth\eclipse-workspace\core\src\test\java\core\utilities\Dataproviders.java
 C:\Users\sushanth\eclipse-workspace\core\src\test\java\core\utilities\ExcelUtility.java

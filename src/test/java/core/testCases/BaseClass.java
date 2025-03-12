@@ -17,6 +17,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -39,6 +40,7 @@ public Properties p;
 	@BeforeClass
 	public void setup() throws IOException
 	{
+		if (driver == null) {
 		//Loading config.properties file
 		FileReader file=new FileReader("./src//test//resources//config.properties");
 		p=new Properties();
@@ -61,6 +63,12 @@ public Properties p;
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("details-button"))).click();
         wait.until(ExpectedConditions.elementToBeClickable(By.id("proceed-link"))).click();
 		 driver.switchTo().frame("loginFrame");
+		 
+		 System.out.println("WebDriver initialized. Session ID: " + ((RemoteWebDriver) driver).getSessionId());
+    } else {
+        System.out.println("Reusing existing WebDriver. Session ID: " + ((RemoteWebDriver) driver).getSessionId());
+    }
+        
 	}
 	
 	/*@AfterClass

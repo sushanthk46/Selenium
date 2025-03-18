@@ -9,6 +9,12 @@
           <include name="verifyLogin"/>
         </methods>
       </class> <!-- core.testCases.TC001_LoginPage -->
+      <class name="core.testCases.TC002_HSIMHomePage">
+        <methods>
+          <include name="setup"/>
+          <include name="SelectFunction"/>
+        </methods>
+      </class> <!-- core.testCases.TC002_HSIMHomePage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

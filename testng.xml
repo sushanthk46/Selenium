@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite" allow-return-values="true">
 	<parameter name="org.testng.reporters.XMLReporterConfig.DTD_DIR" value="classpath:/"/>
-  <test thread-count="1" name="Test">
+  <test thread-count="5" name="Test">
   <classes>
       <class name="core.testCases.TC001_LoginPage"/>
        <class name="core.testCases.TC002_HSIMHomePage"/>

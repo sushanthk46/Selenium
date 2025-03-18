@@ -15,7 +15,7 @@ import core.utilities.Dataproviders;
 public class TC001_LoginPage extends BaseClass {
 	
 	@Test(dataProvider="LoginData", dataProviderClass= Dataproviders.class)
-	public void verifyLogin(String uname, String pwd,String res) {
+	public void verifyLogin(String uname, String pwd, String res) {
 	
 	try {
 		

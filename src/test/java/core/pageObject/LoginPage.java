@@ -21,11 +21,11 @@ public class LoginPage extends BasePage {
 	
 	
 	public void txtUser(String uname) {
-		userNm.sendKeys("BBSSL3");
+		userNm.sendKeys(uname);
 	}
 	
 	public void txtPwd(String pwd) {
-		passTxt.sendKeys("bbssl@123");
+		passTxt.sendKeys(pwd);
 	}
 	
 	public void btnClick() {

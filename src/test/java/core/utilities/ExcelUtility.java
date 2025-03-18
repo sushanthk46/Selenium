@@ -39,7 +39,7 @@ public class ExcelUtility {
 		int rowcount=sheet.getLastRowNum();
 		workbook.close();
 		fi.close();
-		return rowcount-1;		
+		return rowcount;		
 	}
 	
 	public int getCellCount(String sheetName,int rownum) throws IOException

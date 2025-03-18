@@ -2,30 +2,92 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-12T11:25:30 IST" name="Suite" finished-at="2025-03-12T11:26:04 IST" duration-ms="34056">
+  <suite started-at="2025-03-17T14:53:42 IST" name="Suite" finished-at="2025-03-17T14:54:03 IST" duration-ms="21120">
     <groups>
     </groups>
-    <test started-at="2025-03-12T11:25:30 IST" name="Test" finished-at="2025-03-12T11:26:04 IST" duration-ms="34056">
+    <test started-at="2025-03-17T14:53:42 IST" name="Test" finished-at="2025-03-17T14:54:03 IST" duration-ms="21120">
       <class name="core.testCases.TC002_HSIMHomePage">
-        <test-method is-config="true" signature="setup()[pri:0, instance:core.testCases.TC002_HSIMHomePage@d3957fe]" started-at="2025-03-12T11:25:50 IST" name="setup" finished-at="2025-03-12T11:25:50 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:core.testCases.TC002_HSIMHomePage@d3957fe]" started-at="2025-03-17T14:53:52 IST" name="setup" finished-at="2025-03-17T14:53:52 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="SelectFunction()[pri:0, instance:core.testCases.TC002_HSIMHomePage@d3957fe]" started-at="2025-03-12T11:25:50 IST" name="SelectFunction" finished-at="2025-03-12T11:26:04 IST" depends-on-methods="core.testCases.TC001_LoginPage.verifyLogin" duration-ms="14121" status="PASS">
+        <test-method signature="SelectFunction(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:core.testCases.TC002_HSIMHomePage@d3957fe]" started-at="2025-03-17T14:53:54 IST" name="SelectFunction" data-provider="HSIMData" finished-at="2025-03-17T14:54:03 IST" depends-on-methods="core.testCases.TC001_LoginPage.verifyLogin" duration-ms="9385" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HSIM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[500400]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[P]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[12/30/25]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectFunction -->
       </class> <!-- core.testCases.TC002_HSIMHomePage -->
       <class name="core.testCases.TC001_LoginPage">
-        <test-method is-config="true" signature="setup()[pri:0, instance:core.testCases.TC001_LoginPage@70a36a66]" started-at="2025-03-12T11:25:30 IST" name="setup" finished-at="2025-03-12T11:25:41 IST" duration-ms="11326" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:core.testCases.TC001_LoginPage@70a36a66]" started-at="2025-03-17T14:53:42 IST" name="setup" finished-at="2025-03-17T14:53:48 IST" duration-ms="5850" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:core.testCases.TC001_LoginPage@70a36a66]" started-at="2025-03-12T11:25:46 IST" name="verifyLogin" data-provider="LoginData" finished-at="2025-03-12T11:25:50 IST" duration-ms="3740" status="PASS">
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:core.testCases.TC001_LoginPage@70a36a66]" started-at="2025-03-17T14:53:49 IST" name="verifyLogin" data-provider="LoginData" finished-at="2025-03-17T14:53:52 IST" duration-ms="3183" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[BBSSL4]]>
+                <![CDATA[BBSSL92]]>
               </value>
             </param>
             <param index="1">

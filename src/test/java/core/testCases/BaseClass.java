@@ -50,6 +50,8 @@ public Properties p;
 		logger=LogManager.getLogger(this.getClass()); //lOG4J2
 		
 		logger.debug("Debug logs");
+		System.setProperty("webdriver.edge.driver", "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedgedriver.exe");
+
 		
 		driver= new EdgeDriver();
 		EdgeOptions options = new EdgeOptions();

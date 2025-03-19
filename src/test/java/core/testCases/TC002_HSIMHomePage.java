@@ -46,7 +46,7 @@ public class TC002_HSIMHomePage extends BaseClass {
 			System.out.println("Function" +select +col1);
 			hsp.funcSelect(col1,select);
 			
-			if(col1=="A") {
+			
 			hsp.Checked();
 			
 			 //Listing of the Elements prsent in active page
@@ -57,7 +57,7 @@ public class TC002_HSIMHomePage extends BaseClass {
 			//First Page inputs
 			
 			//Dropdown id's and values passed
-			
+			if(col1=="A") {
 			String ids[]= {"siFreqType","siFreqStartDD","siFreqHldyStat","execTime",};
 			String values[]= {col4,col5,col6,col7};
 			

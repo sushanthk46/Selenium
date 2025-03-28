@@ -48,9 +48,7 @@ String path=".\\testdata\\HSIMData.xlsx";//taking xl file from testData
 				logindata[i-1][j]= xlutil.getCellData("Sheet1",i, j);  //1,0
 			}
 		}
-		
 		return logindata;
-		
 	}
 	
 }

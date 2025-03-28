@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="5" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-19T10:35:23 IST" name="Suite" finished-at="2025-03-19T10:36:10 IST" duration-ms="47251">
+  <suite started-at="2025-03-28T13:44:48 IST" name="Suite" finished-at="2025-03-28T13:45:05 IST" duration-ms="16813">
     <groups>
     </groups>
-    <test started-at="2025-03-19T10:35:23 IST" name="Test" finished-at="2025-03-19T10:36:10 IST" duration-ms="47251">
+    <test started-at="2025-03-28T13:44:48 IST" name="Test" finished-at="2025-03-28T13:45:05 IST" duration-ms="16813">
       <class name="core.testCases.TC002_HSIMHomePage">
-        <test-method is-config="true" signature="setup()[pri:0, instance:core.testCases.TC002_HSIMHomePage@7eac9008]" started-at="2025-03-19T10:35:38 IST" name="setup" finished-at="2025-03-19T10:35:38 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:core.testCases.TC002_HSIMHomePage@6ed3ccb2]" started-at="2025-03-28T13:44:57 IST" name="setup" finished-at="2025-03-28T13:44:57 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="SelectFunction(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:core.testCases.TC002_HSIMHomePage@7eac9008]" started-at="2025-03-19T10:35:42 IST" name="SelectFunction" data-provider="HSIMData" finished-at="2025-03-19T10:35:50 IST" depends-on-methods="core.testCases.TC001_LoginPage.verifyLogin" duration-ms="7417" status="PASS">
+        <test-method signature="runLoopTest(java.lang.String,[Ljava.lang.String;)[pri:0, instance:core.testCases.TC002_HSIMHomePage@6ed3ccb2]" started-at="2025-03-28T13:45:00 IST" name="runLoopTest" data-provider="HSIMData" finished-at="2025-03-28T13:45:05 IST" depends-on-methods="core.testCases.TC001_LoginPage.verifyLogin" duration-ms="5288" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -20,79 +20,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[A]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[C]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[R000001058]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[M]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[17]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[P]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[A]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[30-12-2025]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[Y]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[Y]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[Y]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[F]]>
-              </value>
-            </param>
-            <param index="13">
-              <value>
-                <![CDATA[INR]]>
-              </value>
-            </param>
-            <param index="14">
-              <value>
-                <![CDATA[1000]]>
+                <![CDATA[[Ljava.lang.String;@6c841199]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SelectFunction -->
-        <test-method signature="SelectFunction(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:core.testCases.TC002_HSIMHomePage@7eac9008]" started-at="2025-03-19T10:35:50 IST" name="SelectFunction" data-provider="HSIMData" finished-at="2025-03-19T10:36:10 IST" depends-on-methods="core.testCases.TC001_LoginPage.verifyLogin" duration-ms="20563" status="PASS">
+        </test-method> <!-- runLoopTest -->
+        <test-method signature="runLoopTest(java.lang.String,[Ljava.lang.String;)[pri:0, instance:core.testCases.TC002_HSIMHomePage@6ed3ccb2]" started-at="2025-03-28T13:45:05 IST" name="runLoopTest" data-provider="HSIMData" finished-at="2025-03-28T13:45:05 IST" depends-on-methods="core.testCases.TC001_LoginPage.verifyLogin" duration-ms="10" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,85 +36,152 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[V]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[C]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[R000001058]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[M]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[17]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[P]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[A]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[30-12-2025]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[Y]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[Y]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[Y]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[F]]>
-              </value>
-            </param>
-            <param index="13">
-              <value>
-                <![CDATA[INR]]>
-              </value>
-            </param>
-            <param index="14">
-              <value>
-                <![CDATA[1000]]>
+                <![CDATA[[Ljava.lang.String;@b1534d3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SelectFunction -->
+        </test-method> <!-- runLoopTest -->
+        <test-method signature="runLoopTest(java.lang.String,[Ljava.lang.String;)[pri:0, instance:core.testCases.TC002_HSIMHomePage@6ed3ccb2]" started-at="2025-03-28T13:45:05 IST" name="runLoopTest" data-provider="HSIMData" finished-at="2025-03-28T13:45:05 IST" depends-on-methods="core.testCases.TC001_LoginPage.verifyLogin" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HSIM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.String;@3b27b497]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLoopTest -->
+        <test-method signature="runLoopTest(java.lang.String,[Ljava.lang.String;)[pri:0, instance:core.testCases.TC002_HSIMHomePage@6ed3ccb2]" started-at="2025-03-28T13:45:05 IST" name="runLoopTest" data-provider="HSIMData" finished-at="2025-03-28T13:45:05 IST" depends-on-methods="core.testCases.TC001_LoginPage.verifyLogin" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HSIM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.String;@3c74aa0d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLoopTest -->
       </class> <!-- core.testCases.TC002_HSIMHomePage -->
-      <class name="core.testCases.TC001_LoginPage">
-        <test-method is-config="true" signature="setup()[pri:0, instance:core.testCases.TC001_LoginPage@6f03482]" started-at="2025-03-19T10:35:23 IST" name="setup" finished-at="2025-03-19T10:35:31 IST" duration-ms="7932" status="PASS">
+      <class name="core.testCases.TC_021HSIMVerifyPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:core.testCases.TC_021HSIMVerifyPage@1a677343]" started-at="2025-03-28T13:44:54 IST" name="setup" finished-at="2025-03-28T13:44:54 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:core.testCases.TC001_LoginPage@6f03482]" started-at="2025-03-19T10:35:33 IST" name="verifyLogin" data-provider="LoginData" finished-at="2025-03-19T10:35:38 IST" duration-ms="5932" status="PASS">
+        <test-method signature="VerifyStart(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:core.testCases.TC_021HSIMVerifyPage@1a677343]" started-at="2025-03-28T13:44:54 IST" name="VerifyStart" finished-at="2025-03-28T13:44:54 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Cannot inject @Test annotated Method [VerifyStart] with [class java.lang.String, class java.lang.String, class java.lang.String].
+For more information on native dependency injection please refer to https://testng.org/#_dependency_injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Cannot inject @Test annotated Method [VerifyStart] with [class java.lang.String, class java.lang.String, class java.lang.String].
+For more information on native dependency injection please refer to https://testng.org/#_dependency_injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:442)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:347)
+at org.testng.internal.Parameters.createParameters(Parameters.java:699)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:885)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyStart -->
+      </class> <!-- core.testCases.TC_021HSIMVerifyPage -->
+      <class name="core.testCases.TC_022HSIMModifyPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:core.testCases.TC_022HSIMModifyPage@3cd3e762]" started-at="2025-03-28T13:44:48 IST" name="setup" finished-at="2025-03-28T13:44:54 IST" duration-ms="5943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="modifyStart(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:core.testCases.TC_022HSIMModifyPage@3cd3e762]" started-at="2025-03-28T13:44:54 IST" name="modifyStart" finished-at="2025-03-28T13:44:54 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Cannot inject @Test annotated Method [modifyStart] with [class java.lang.String, class java.lang.String, class java.lang.String, class java.lang.String, class java.lang.String].
+For more information on native dependency injection please refer to https://testng.org/#_dependency_injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Cannot inject @Test annotated Method [modifyStart] with [class java.lang.String, class java.lang.String, class java.lang.String, class java.lang.String, class java.lang.String].
+For more information on native dependency injection please refer to https://testng.org/#_dependency_injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:442)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:347)
+at org.testng.internal.Parameters.createParameters(Parameters.java:699)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:885)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyStart -->
+      </class> <!-- core.testCases.TC_022HSIMModifyPage -->
+      <class name="core.testCases.TC001_LoginPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:core.testCases.TC001_LoginPage@15de0b3c]" started-at="2025-03-28T13:44:54 IST" name="setup" finished-at="2025-03-28T13:44:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:core.testCases.TC001_LoginPage@15de0b3c]" started-at="2025-03-28T13:44:56 IST" name="verifyLogin" data-provider="LoginData" finished-at="2025-03-28T13:44:57 IST" duration-ms="1583" status="PASS">
           <params>
             <param index="0">
               <value>

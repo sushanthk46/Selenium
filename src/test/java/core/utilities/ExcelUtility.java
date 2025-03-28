@@ -86,6 +86,8 @@ public class ExcelUtility {
 		fo=new FileOutputStream(path);
 		workbook.write(fo);
 		}
+		
+		System.out.println("Coumn Number" +colnum);
 				
 		fi=new FileInputStream(path);
 		workbook=new XSSFWorkbook(fi);
@@ -98,7 +100,7 @@ public class ExcelUtility {
 				sheet.createRow(rownum);
 		row=sheet.getRow(rownum);
 		
-		cell=row.createCell(colnum);
+		cell=row.getCell(colnum);
 		cell.setCellValue(data);
 		fo=new FileOutputStream(path);
 		workbook.write(fo);		

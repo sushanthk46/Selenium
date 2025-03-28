@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\sushanth\eclipse-workspace\core\testng.xml</span>
+                    <span>D:\core\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">7 methods, 2 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="core.testCases.TC_021HSIMVerifyPage" class="method navigator-link" hash-for-method="VerifyStart">VerifyStart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="core.testCases.TC_022HSIMModifyPage" class="method navigator-link" hash-for-method="modifyStart">modifyStart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,12 +122,22 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="core.testCases.TC002_HSIMHomePage" class="method navigator-link" hash-for-method="SelectFunction(HSIM, A, C, R000001058, M, 17, P, A, 30-12-2025, Y, Y, Y, F, INR, 1000)">SelectFunction(HSIM, A, C, R000001058, M, 17, P, A, 30-12-2025, Y, Y, Y, F, INR, 1000)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="core.testCases.TC002_HSIMHomePage" class="method navigator-link" hash-for-method="runLoopTest(HSIM, [M, C, CB296, H, siFreqType, P, A, 30-12-2026, Y, Y, Y, F, INR, 1001])">runLoopTest(HSIM, [M, C, CB296, H, siFreqType, P, A, 30-12-2026, Y, Y, Y, F, INR, 1001])</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="core.testCases.TC002_HSIMHomePage" class="method navigator-link" hash-for-method="SelectFunction(HSIM, V, C, R000001058, M, 17, P, A, 30-12-2025, Y, Y, Y, F, INR, 1000)">SelectFunction(HSIM, V, C, R000001058, M, 17, P, A, 30-12-2025, Y, Y, Y, F, INR, 1000)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="core.testCases.TC002_HSIMHomePage" class="method navigator-link" hash-for-method="runLoopTest(HSIM, [V, C, CB410, CB350, 18, P, A, 30-12-2026, Y, Y, Y, F, INR, 1001])">runLoopTest(HSIM, [V, C, CB410, CB350, 18, P, A, 30-12-2026, Y, Y, Y, F, INR, 1001])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="core.testCases.TC002_HSIMHomePage" class="method navigator-link" hash-for-method="runLoopTest(HSIM, [I, C, CB257, H, siFreqType, P, A, 30-12-2027, Y, Y, Y, F, INR, 1002])">runLoopTest(HSIM, [I, C, CB257, H, siFreqType, P, A, 30-12-2027, Y, Y, Y, F, INR, 1002])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="core.testCases.TC002_HSIMHomePage" class="method navigator-link" hash-for-method="runLoopTest(HSIM, [A, C, R000002550, M, 17, P, A, 30-12-2025, Y, Y, Y, F, INR, 1000])">runLoopTest(HSIM, [A, C, R000002550, M, 17, P, A, 30-12-2025, Y, Y, Y, F, INR, 1000])</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -128,30 +157,48 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">core.testCases.TC002_HSIMHomePage</span>
+              <img src="failed.png"/>
+              <span class="class-name">core.testCases.TC_021HSIMVerifyPage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="SelectFunction(HSIM, A, C, R000001058, M, 17, P, A, 30-12-2025, Y, Y, Y, F, INR, 1000)">
-                  </a> <!-- SelectFunction(HSIM, A, C, R000001058, M, 17, P, A, 30-12-2025, Y, Y, Y, F, INR, 1000) -->
-                  <span class="method-name">SelectFunction</span>
-                  <span class="parameters">(HSIM,A,C,R000001058,M,17,P,A,30-12-2025,Y,Y,Y,F,INR,1000)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="SelectFunction(HSIM, V, C, R000001058, M, 17, P, A, 30-12-2025, Y, Y, Y, F, INR, 1000)">
-                  </a> <!-- SelectFunction(HSIM, V, C, R000001058, M, 17, P, A, 30-12-2025, Y, Y, Y, F, INR, 1000) -->
-                  <span class="method-name">SelectFunction</span>
-                  <span class="parameters">(HSIM,V,C,R000001058,M,17,P,A,30-12-2025,Y,Y,Y,F,INR,1000)</span>
+                  <a name="VerifyStart">
+                  </a> <!-- VerifyStart -->
+                  <span class="method-name">VerifyStart</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Cannot inject @Test annotated Method [VerifyStart] with [class java.lang.String, class java.lang.String, class java.lang.String].
+For more information on native dependency injection please refer to https://testng.org/#_dependency_injection
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">core.testCases.TC_022HSIMModifyPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="modifyStart">
+                  </a> <!-- modifyStart -->
+                  <span class="method-name">modifyStart</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Cannot inject @Test annotated Method [modifyStart] with [class java.lang.String, class java.lang.String, class java.lang.String, class java.lang.String, class java.lang.String].
+For more information on native dependency injection please refer to https://testng.org/#_dependency_injection
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -168,21 +215,62 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">core.testCases.TC002_HSIMHomePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runLoopTest(HSIM, [M, C, CB296, H, siFreqType, P, A, 30-12-2026, Y, Y, Y, F, INR, 1001])">
+                  </a> <!-- runLoopTest(HSIM, [M, C, CB296, H, siFreqType, P, A, 30-12-2026, Y, Y, Y, F, INR, 1001]) -->
+                  <span class="method-name">runLoopTest</span>
+                  <span class="parameters">(HSIM,[M, C, CB296, H, siFreqType, P, A, 30-12-2026, Y, Y, Y, F, INR, 1001])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runLoopTest(HSIM, [V, C, CB410, CB350, 18, P, A, 30-12-2026, Y, Y, Y, F, INR, 1001])">
+                  </a> <!-- runLoopTest(HSIM, [V, C, CB410, CB350, 18, P, A, 30-12-2026, Y, Y, Y, F, INR, 1001]) -->
+                  <span class="method-name">runLoopTest</span>
+                  <span class="parameters">(HSIM,[V, C, CB410, CB350, 18, P, A, 30-12-2026, Y, Y, Y, F, INR, 1001])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runLoopTest(HSIM, [I, C, CB257, H, siFreqType, P, A, 30-12-2027, Y, Y, Y, F, INR, 1002])">
+                  </a> <!-- runLoopTest(HSIM, [I, C, CB257, H, siFreqType, P, A, 30-12-2027, Y, Y, Y, F, INR, 1002]) -->
+                  <span class="method-name">runLoopTest</span>
+                  <span class="parameters">(HSIM,[I, C, CB257, H, siFreqType, P, A, 30-12-2027, Y, Y, Y, F, INR, 1002])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runLoopTest(HSIM, [A, C, R000002550, M, 17, P, A, 30-12-2025, Y, Y, Y, F, INR, 1000])">
+                  </a> <!-- runLoopTest(HSIM, [A, C, R000002550, M, 17, P, A, 30-12-2025, Y, Y, Y, F, INR, 1000]) -->
+                  <span class="method-name">runLoopTest</span>
+                  <span class="parameters">(HSIM,[A, C, R000002550, M, 17, P, A, 30-12-2025, Y, Y, Y, F, INR, 1000])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\sushanth\eclipse-workspace\core\testng.xml</span>
+            <span class="header-content">D:\core\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; allow-return-values=&quot;true&quot;&gt;
-  &lt;parameter name=&quot;org.testng.reporters.XMLReporterConfig.DTD_DIR&quot; value=&quot;classpath:/&quot;/&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;core.testCases.TC001_LoginPage&quot;/&gt;
+      &lt;class name=&quot;core.testCases.TC_022HSIMModifyPage&quot;/&gt;
       &lt;class name=&quot;core.testCases.TC002_HSIMHomePage&quot;/&gt;
+      &lt;class name=&quot;core.testCases.TC_021HSIMVerifyPage&quot;/&gt;
+      &lt;class name=&quot;core.testCases.TC001_LoginPage&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -196,7 +284,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (2 classes)</span>
+                <span class="test-name">Test (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -222,24 +310,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'SelectFunction')
+data.setCell(0, 1, 'runLoopTest')
 data.setCell(0, 2, 'core.testCases.TC002_HSIMHomePage')
-data.setCell(0, 3, 20563);
+data.setCell(0, 3, 5288);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'SelectFunction')
-data.setCell(1, 2, 'core.testCases.TC002_HSIMHomePage')
-data.setCell(1, 3, 7417);
+data.setCell(1, 1, 'verifyLogin')
+data.setCell(1, 2, 'core.testCases.TC001_LoginPage')
+data.setCell(1, 3, 1583);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyLogin')
-data.setCell(2, 2, 'core.testCases.TC001_LoginPage')
-data.setCell(2, 3, 5932);
+data.setCell(2, 1, 'runLoopTest')
+data.setCell(2, 2, 'core.testCases.TC002_HSIMHomePage')
+data.setCell(2, 3, 10);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runLoopTest')
+data.setCell(3, 2, 'core.testCases.TC002_HSIMHomePage')
+data.setCell(3, 3, 9);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runLoopTest')
+data.setCell(4, 2, 'core.testCases.TC002_HSIMHomePage')
+data.setCell(4, 3, 2);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'modifyStart')
+data.setCell(5, 2, 'core.testCases.TC_022HSIMModifyPage')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'VerifyStart')
+data.setCell(6, 2, 'core.testCases.TC_021HSIMVerifyPage')
+data.setCell(6, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 33 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -265,29 +369,51 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">core.testCases.TC001_LoginPage</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">core.testCases.TC_022HSIMModifyPage</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">core.testCases.TC_021HSIMVerifyPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">5961 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">core.testCases.TC001_LoginPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">5979 ms</span>
+              </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyLogin(BBSSL92, bbssl@123, valid)</span>
-                <span class="method-start">9260 ms</span>
+                <span class="method-start">7459 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">core.testCases.TC002_HSIMHomePage</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">15207 ms</span>
+                <span class="method-start">9047 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">SelectFunction(HSIM, A, C, R000001058, M, 17, P, A, 30-12-2025, Y, Y, Y, F, INR, 1000)</span>
-                <span class="method-start">19160 ms</span>
+                <span class="method-name">runLoopTest(HSIM, [A, C, R000002550, M, 17, P, A, 30-12-2025, Y, Y, Y, F, INR, 1000])</span>
+                <span class="method-start">11437 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">SelectFunction(HSIM, V, C, R000001058, M, 17, P, A, 30-12-2025, Y, Y, Y, F, INR, 1000)</span>
-                <span class="method-start">26580 ms</span>
+                <span class="method-name">runLoopTest(HSIM, [V, C, CB410, CB350, 18, P, A, 30-12-2026, Y, Y, Y, F, INR, 1001])</span>
+                <span class="method-start">16728 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runLoopTest(HSIM, [M, C, CB296, H, siFreqType, P, A, 30-12-2026, Y, Y, Y, F, INR, 1001])</span>
+                <span class="method-start">16742 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runLoopTest(HSIM, [I, C, CB257, H, siFreqType, P, A, 30-12-2027, Y, Y, Y, F, INR, 1002])</span>
+                <span class="method-start">16753 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

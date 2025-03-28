@@ -40,6 +40,7 @@ public Properties p;
 	@BeforeClass
 	public void setup() throws IOException
 	{
+		
 		if (driver == null) {
 		//Loading config.properties file
 		FileReader file=new FileReader("./src//test//resources//config.properties");

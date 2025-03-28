@@ -1,247 +1,231 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="38.171" tests="4" errors="0" skipped="1" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="90.218" tests="5" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.specification.version" value="17"/>
+    <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\sushanth\eclipse-workspace\core\target\test-classes;C:\Users\sushanth\eclipse-workspace\core\target\classes;C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-java\4.28.1\selenium-java-4.28.1.jar;C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-api\4.28.1\selenium-api-4.28.1.jar;C:\Users\sushanth\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.28.1\selenium-chrome-driver-4.28.1.jar;C:\Users\sushanth\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.28.1\selenium-chromium-driver-4.28.1.jar;C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-json\4.28.1\selenium-json-4.28.1.jar;C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.28.1\selenium-manager-4.28.1.jar;C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.28.1\selenium-devtools-v130-4.28.1.jar;C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.28.1\selenium-devtools-v131-4.28.1.jar;C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.28.1\selenium-devtools-v132-4.28.1.jar;C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.28.1\selenium-devtools-v85-4.28.1.jar;C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.28.1\selenium-edge-driver-4.28.1.jar;C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.28.1\selenium-firefox-driver-4.28.1.jar;C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-http\4.28.1\selenium-http-4.28.1.jar;C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.28.1\selenium-ie-driver-4.28.1.jar;C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.28.1\selenium-remote-driver-4.28.1.jar;C:\Users\sushanth\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar;C:\Users\sushanth\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\sushanth\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\sushanth\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\sushanth\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\sushanth\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\sushanth\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\sushanth\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\sushanth\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\Users\sushanth\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\Users\sushanth\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\Users\sushanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\Users\sushanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\Users\sushanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\Users\sushanth\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\Users\sushanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\Users\sushanth\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\Users\sushanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\Users\sushanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\Users\sushanth\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-os\4.28.1\selenium-os-4.28.1.jar;C:\Users\sushanth\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.28.1\selenium-safari-driver-4.28.1.jar;C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-support\4.28.1\selenium-support-4.28.1.jar;C:\Users\sushanth\.m2\repository\org\apache\commons\commons-email\1.5\commons-email-1.5.jar;C:\Users\sushanth\.m2\repository\com\sun\mail\javax.mail\1.5.6\javax.mail-1.5.6.jar;C:\Users\sushanth\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\sushanth\.m2\repository\org\apache\poi\poi\5.4.0\poi-5.4.0.jar;C:\Users\sushanth\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\sushanth\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\sushanth\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\sushanth\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\sushanth\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\sushanth\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.2\log4j-core-2.24.2.jar;C:\Users\sushanth\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\sushanth\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\sushanth\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\sushanth\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\sushanth\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\sushanth\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\sushanth\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\sushanth\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\sushanth\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\sushanth\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\sushanth\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\sushanth\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\sushanth\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\sushanth\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\sushanth\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\sushanth\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\sushanth\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.class.path" value="D:\core\target\test-classes;D:\core\target\classes;C:\Users\Sushanth\.m2\repository\org\seleniumhq\selenium\selenium-java\4.28.1\selenium-java-4.28.1.jar;C:\Users\Sushanth\.m2\repository\org\seleniumhq\selenium\selenium-api\4.28.1\selenium-api-4.28.1.jar;C:\Users\Sushanth\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Sushanth\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.28.1\selenium-chrome-driver-4.28.1.jar;C:\Users\Sushanth\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Sushanth\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.28.1\selenium-chromium-driver-4.28.1.jar;C:\Users\Sushanth\.m2\repository\org\seleniumhq\selenium\selenium-json\4.28.1\selenium-json-4.28.1.jar;C:\Users\Sushanth\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.28.1\selenium-manager-4.28.1.jar;C:\Users\Sushanth\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.28.1\selenium-devtools-v130-4.28.1.jar;C:\Users\Sushanth\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.28.1\selenium-devtools-v131-4.28.1.jar;C:\Users\Sushanth\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.28.1\selenium-devtools-v132-4.28.1.jar;C:\Users\Sushanth\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.28.1\selenium-devtools-v85-4.28.1.jar;C:\Users\Sushanth\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.28.1\selenium-edge-driver-4.28.1.jar;C:\Users\Sushanth\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.28.1\selenium-firefox-driver-4.28.1.jar;C:\Users\Sushanth\.m2\repository\org\seleniumhq\selenium\selenium-http\4.28.1\selenium-http-4.28.1.jar;C:\Users\Sushanth\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.28.1\selenium-ie-driver-4.28.1.jar;C:\Users\Sushanth\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.28.1\selenium-remote-driver-4.28.1.jar;C:\Users\Sushanth\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar;C:\Users\Sushanth\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Sushanth\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Sushanth\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Sushanth\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\Sushanth\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\Sushanth\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Sushanth\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Sushanth\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\Users\Sushanth\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\Users\Sushanth\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\Users\Sushanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\Users\Sushanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\Users\Sushanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\Users\Sushanth\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\Users\Sushanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\Users\Sushanth\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\Users\Sushanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\Users\Sushanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\Users\Sushanth\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\Sushanth\.m2\repository\org\seleniumhq\selenium\selenium-os\4.28.1\selenium-os-4.28.1.jar;C:\Users\Sushanth\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Sushanth\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.28.1\selenium-safari-driver-4.28.1.jar;C:\Users\Sushanth\.m2\repository\org\seleniumhq\selenium\selenium-support\4.28.1\selenium-support-4.28.1.jar;C:\Users\Sushanth\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\Sushanth\.m2\repository\org\apache\commons\commons-email\1.5\commons-email-1.5.jar;C:\Users\Sushanth\.m2\repository\com\sun\mail\javax.mail\1.5.6\javax.mail-1.5.6.jar;C:\Users\Sushanth\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\Sushanth\.m2\repository\org\apache\poi\poi\5.4.0\poi-5.4.0.jar;C:\Users\Sushanth\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\Sushanth\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Sushanth\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Sushanth\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Sushanth\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\Sushanth\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.2\log4j-core-2.24.2.jar;C:\Users\Sushanth\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\Sushanth\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\Sushanth\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\Sushanth\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\Sushanth\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\Sushanth\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\Sushanth\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Sushanth\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Sushanth\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Sushanth\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Sushanth\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Sushanth\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Sushanth\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Sushanth\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Sushanth\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Sushanth\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="java.vm.specification.version" value="17"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\sushanth\AppData\Local\Temp\surefire7974234150885028568\surefirebooter-20250319022837469_3.jar C:\Users\sushanth\AppData\Local\Temp\surefire7974234150885028568 2025-03-19T02-28-36_924-jvmRun1 surefire-20250319022837469_1tmp surefire_0-20250319022837469_2tmp"/>
+    <property name="sun.boot.library.path" value="C:\Users\Sushanth\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Sushanth\AppData\Local\Temp\surefire16302272067314221164\surefirebooter-20250326143400959_3.jar C:\Users\Sushanth\AppData\Local\Temp\surefire16302272067314221164 2025-03-26T14-34-00_649-jvmRun1 surefire-20250326143400959_1tmp surefire_0-20250326143400959_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\sushanth\eclipse-workspace\core\target\test-classes;C:\Users\sushanth\eclipse-workspace\core\target\classes;C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-java\4.28.1\selenium-java-4.28.1.jar;C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-api\4.28.1\selenium-api-4.28.1.jar;C:\Users\sushanth\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.28.1\selenium-chrome-driver-4.28.1.jar;C:\Users\sushanth\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.28.1\selenium-chromium-driver-4.28.1.jar;C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-json\4.28.1\selenium-json-4.28.1.jar;C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.28.1\selenium-manager-4.28.1.jar;C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.28.1\selenium-devtools-v130-4.28.1.jar;C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.28.1\selenium-devtools-v131-4.28.1.jar;C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.28.1\selenium-devtools-v132-4.28.1.jar;C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.28.1\selenium-devtools-v85-4.28.1.jar;C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.28.1\selenium-edge-driver-4.28.1.jar;C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.28.1\selenium-firefox-driver-4.28.1.jar;C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-http\4.28.1\selenium-http-4.28.1.jar;C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.28.1\selenium-ie-driver-4.28.1.jar;C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.28.1\selenium-remote-driver-4.28.1.jar;C:\Users\sushanth\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar;C:\Users\sushanth\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\sushanth\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\sushanth\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\sushanth\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\sushanth\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\sushanth\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\sushanth\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\sushanth\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\Users\sushanth\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\Users\sushanth\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\Users\sushanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\Users\sushanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\Users\sushanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\Users\sushanth\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\Users\sushanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\Users\sushanth\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\Users\sushanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\Users\sushanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\Users\sushanth\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-os\4.28.1\selenium-os-4.28.1.jar;C:\Users\sushanth\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.28.1\selenium-safari-driver-4.28.1.jar;C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-support\4.28.1\selenium-support-4.28.1.jar;C:\Users\sushanth\.m2\repository\org\apache\commons\commons-email\1.5\commons-email-1.5.jar;C:\Users\sushanth\.m2\repository\com\sun\mail\javax.mail\1.5.6\javax.mail-1.5.6.jar;C:\Users\sushanth\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\sushanth\.m2\repository\org\apache\poi\poi\5.4.0\poi-5.4.0.jar;C:\Users\sushanth\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\sushanth\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\sushanth\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\sushanth\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\sushanth\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\sushanth\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.2\log4j-core-2.24.2.jar;C:\Users\sushanth\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\sushanth\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\sushanth\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\sushanth\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\sushanth\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\sushanth\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\sushanth\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\sushanth\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\sushanth\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\sushanth\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\sushanth\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\sushanth\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\sushanth\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\sushanth\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\sushanth\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\sushanth\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\sushanth\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="surefire.test.class.path" value="D:\core\target\test-classes;D:\core\target\classes;C:\Users\Sushanth\.m2\repository\org\seleniumhq\selenium\selenium-java\4.28.1\selenium-java-4.28.1.jar;C:\Users\Sushanth\.m2\repository\org\seleniumhq\selenium\selenium-api\4.28.1\selenium-api-4.28.1.jar;C:\Users\Sushanth\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Sushanth\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.28.1\selenium-chrome-driver-4.28.1.jar;C:\Users\Sushanth\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Sushanth\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.28.1\selenium-chromium-driver-4.28.1.jar;C:\Users\Sushanth\.m2\repository\org\seleniumhq\selenium\selenium-json\4.28.1\selenium-json-4.28.1.jar;C:\Users\Sushanth\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.28.1\selenium-manager-4.28.1.jar;C:\Users\Sushanth\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.28.1\selenium-devtools-v130-4.28.1.jar;C:\Users\Sushanth\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.28.1\selenium-devtools-v131-4.28.1.jar;C:\Users\Sushanth\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.28.1\selenium-devtools-v132-4.28.1.jar;C:\Users\Sushanth\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.28.1\selenium-devtools-v85-4.28.1.jar;C:\Users\Sushanth\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.28.1\selenium-edge-driver-4.28.1.jar;C:\Users\Sushanth\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.28.1\selenium-firefox-driver-4.28.1.jar;C:\Users\Sushanth\.m2\repository\org\seleniumhq\selenium\selenium-http\4.28.1\selenium-http-4.28.1.jar;C:\Users\Sushanth\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.28.1\selenium-ie-driver-4.28.1.jar;C:\Users\Sushanth\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.28.1\selenium-remote-driver-4.28.1.jar;C:\Users\Sushanth\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar;C:\Users\Sushanth\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Sushanth\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Sushanth\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Sushanth\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\Sushanth\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\Sushanth\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Sushanth\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Sushanth\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\Users\Sushanth\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\Users\Sushanth\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\Users\Sushanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\Users\Sushanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\Users\Sushanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\Users\Sushanth\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\Users\Sushanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\Users\Sushanth\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\Users\Sushanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\Users\Sushanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\Users\Sushanth\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\Sushanth\.m2\repository\org\seleniumhq\selenium\selenium-os\4.28.1\selenium-os-4.28.1.jar;C:\Users\Sushanth\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Sushanth\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.28.1\selenium-safari-driver-4.28.1.jar;C:\Users\Sushanth\.m2\repository\org\seleniumhq\selenium\selenium-support\4.28.1\selenium-support-4.28.1.jar;C:\Users\Sushanth\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\Sushanth\.m2\repository\org\apache\commons\commons-email\1.5\commons-email-1.5.jar;C:\Users\Sushanth\.m2\repository\com\sun\mail\javax.mail\1.5.6\javax.mail-1.5.6.jar;C:\Users\Sushanth\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\Sushanth\.m2\repository\org\apache\poi\poi\5.4.0\poi-5.4.0.jar;C:\Users\Sushanth\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\Sushanth\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Sushanth\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Sushanth\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Sushanth\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\Sushanth\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.2\log4j-core-2.24.2.jar;C:\Users\Sushanth\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\Sushanth\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\Sushanth\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\Sushanth\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\Sushanth\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\Sushanth\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\Sushanth\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Sushanth\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Sushanth\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Sushanth\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Sushanth\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Sushanth\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Sushanth\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Sushanth\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Sushanth\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Sushanth\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="C:\Users\sushanth"/>
+    <property name="user.home" value="C:\Users\Sushanth"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2024-07-16"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="C:\Users\Sushanth\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre"/>
     <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\core"/>
     <property name="style.color" value="always"/>
-    <property name="basedir" value="C:\Users\sushanth\eclipse-workspace\core"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\sushanth\AppData\Local\Temp\surefire7974234150885028568\surefirebooter-20250319022837469_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Sushanth\AppData\Local\Temp\surefire16302272067314221164\surefirebooter-20250326143400959_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
-    <property name="user.name" value="sushanth"/>
+    <property name="java.runtime.version" value="21.0.6+7-LTS"/>
+    <property name="user.name" value="Sushanth"/>
+    <property name="stdout.encoding" value="Cp1252"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="file.encoding" value="Cp1252"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="localRepository" value="C:\Users\sushanth\.m2\repository"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="C:\Users\sushanth\AppData\Local\Temp\"/>
-    <property name="java.version" value="17.0.12"/>
-    <property name="user.dir" value="C:\Users\sushanth\eclipse-workspace\core"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.6+7"/>
+    <property name="localRepository" value="C:\Users\Sushanth\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\Sushanth\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.6"/>
+    <property name="user.dir" value="D:\core"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/sushanth/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.2.v20240802-1626/jre/bin/server;C:/Users/sushanth/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.2.v20240802-1626/jre/bin;C:\Python312\Scripts\;C:\Python312\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\GitHub CLI\;C:\Program Files\Git\cmd;D:\apache-maven-4.0.0-beta-4\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\chocolatey\bin;C:\Windows;C:\Users\sushanth\AppData\Roaming\Python\Python312\site-packages;C:\Program Files (x86)\nodejs\;C:\Program Files\Java\jdk-17\bin;D:\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\usbipd-win\;C:\Program Files\Git\bin;C:\Users\sushanth\AppData\Local\Microsoft\WindowsApps;C:\Users\sushanth\AppData\Local\Programs\Microsoft VS Code\bin;C:\ProgramData\chocolatey\bin;C:\Windows;C:\Users\sushanth\AppData\Roaming\Python\Python312\site-packages;C:\Users\sushanth\AppData\Roaming\Python\Python312\Scripts;C:\Users\sushanth\AppData\Roaming\npm;C:\Users\sushanth\AppData\Local\Programs\Ollama;C:\Program Files\Git\bin;;C:\Users\sushanth\Desktop;;."/>
+    <property name="java.library.path" value="C:\Users\Sushanth\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/Sushanth/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529/jre/bin/server;C:/Users/Sushanth/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529/jre/bin;C:/Users/Sushanth/AppData/Local/Temp/eoi4D2A.tmp//plugins/org.eclipse.justj.openjdk.hotspot.jre.minimal.stripped.win32.x86_64_21.0.6.v20250130-0529/jre/bin/server;C:/Users/Sushanth/AppData/Local/Temp/eoi4D2A.tmp//plugins/org.eclipse.justj.openjdk.hotspot.jre.minimal.stripped.win32.x86_64_21.0.6.v20250130-0529/jre/bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Sushanth\AppData\Local\Microsoft\WindowsApps;;C:\Users\Sushanth\Downloads;;C:\Users\Sushanth\Downloads;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.6+7-LTS"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="61.0"/>
+    <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="setup" classname="core.testCases.TC001_LoginPage" time="32.697">
-    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: MicrosoftEdge=134.0.3124.72)&#10;Build info: version: &apos;4.28.1&apos;, revision: &apos;73f5ad48a2&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [ce18eb63157b975a36973fa6643d2f38, maximizeCurrentWindow {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 134.0.3124.72, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60480}, msedge: {msedgedriverVersion: 134.0.3124.72 (c81e2c3854de..., userDataDir: C:\Users\sushanth\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60480/devtoo..., se:cdpVersion: 134.0.3124.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ce18eb63157b975a36973fa6643d2f38" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[org.openqa.selenium.NoSuchWindowException: 
-no such window: target window already closed
-from unknown error: web view not found
-  (Session info: MicrosoftEdge=134.0.3124.72)
-Build info: version: '4.28.1', revision: '73f5ad48a2'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [ce18eb63157b975a36973fa6643d2f38, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 134.0.3124.72, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60480}, msedge: {msedgedriverVersion: 134.0.3124.72 (c81e2c3854de..., userDataDir: C:\Users\sushanth\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60480/devtoo..., se:cdpVersion: 134.0.3124.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ce18eb63157b975a36973fa6643d2f38
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1061)
-	at core.testCases.BaseClass.setup(BaseClass.java:65)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-    <system-out><![CDATA[2025-03-18T20:58:40.242061800Z main DEBUG Apache Log4j Core 2.24 initializing configuration XmlConfiguration[location=C:\Users\sushanth\eclipse-workspace\core\target\test-classes\log4j2.xml, lastModified=2025-03-06T21:24:49.709Z]
-2025-03-18T20:58:40.246062900Z main DEBUG PluginManager 'Core' found 131 plugins
-2025-03-18T20:58:40.247063800Z main DEBUG PluginManager 'Level' found 0 plugins
-2025-03-18T20:58:40.256066700Z main DEBUG Building Plugin[name=Property, class=org.apache.logging.log4j.core.config.Property].
-2025-03-18T20:58:40.301067600Z main TRACE TypeConverterRegistry initializing.
-2025-03-18T20:58:40.302065900Z main DEBUG PluginManager 'TypeConverter' found 26 plugins
-2025-03-18T20:58:40.320075800Z main DEBUG createProperty(name="log-path", value="./logs", Configuration(C:\Users\sushanth\eclipse-workspace\core\target\test-classes\log4j2.xml))
-2025-03-18T20:58:40.321065Z main DEBUG Building Plugin[name=Property, class=org.apache.logging.log4j.core.config.Property].
-2025-03-18T20:58:40.321065Z main DEBUG createProperty(name="log-pattern", value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n", Configuration(C:\Users\sushanth\eclipse-workspace\core\target\test-classes\log4j2.xml))
-2025-03-18T20:58:40.322063500Z main DEBUG Building Plugin[name=Properties, class=org.apache.logging.log4j.core.config.PropertiesPlugin].
-2025-03-18T20:58:40.328065100Z main DEBUG configureSubstitutor(={log-path=./logs, log-pattern=%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n}, Configuration(C:\Users\sushanth\eclipse-workspace\core\target\test-classes\log4j2.xml))
-2025-03-18T20:58:40.332067700Z main DEBUG PluginManager 'Lookup' found 16 plugins
-2025-03-18T20:58:40.333064800Z main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
-2025-03-18T20:58:40.354076900Z main DEBUG PatternLayout$Builder(pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n", PatternSelector=null, Configuration(C:\Users\sushanth\eclipse-workspace\core\target\test-classes\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
-2025-03-18T20:58:40.355061400Z main DEBUG PluginManager 'Converter' found 45 plugins
-2025-03-18T20:58:40.365065400Z main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
-2025-03-18T20:58:40.378057300Z main DEBUG ConsoleAppender$Builder(target="SYSTEM_OUT", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n), name="Console", Configuration(C:\Users\sushanth\eclipse-workspace\core\target\test-classes\log4j2.xml), Filter=null, ={})
-2025-03-18T20:58:40.383064300Z main DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
-2025-03-18T20:58:40.383064300Z main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
-2025-03-18T20:58:40.385065Z main DEBUG PatternLayout$Builder(pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n", PatternSelector=null, Configuration(C:\Users\sushanth\eclipse-workspace\core\target\test-classes\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
-2025-03-18T20:58:40.386069300Z main DEBUG Building Plugin[name=TimeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.TimeBasedTriggeringPolicy].
-2025-03-18T20:58:40.391056300Z main DEBUG TimeBasedTriggeringPolicy$Builder(interval="null", modulate="null", maxRandomDelay="null")
-2025-03-18T20:58:40.397070Z main DEBUG Building Plugin[name=SizeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy].
-2025-03-18T20:58:40.398067300Z main DEBUG createPolicy(size="1MB")
-2025-03-18T20:58:40.402069600Z main DEBUG Building Plugin[name=Policies, class=org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy].
-2025-03-18T20:58:40.403066900Z main DEBUG createPolicy(={TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false), SizeBasedTriggeringPolicy(size=1048576)})
-2025-03-18T20:58:40.404064800Z main DEBUG Building Plugin[name=DefaultRolloverStrategy, class=org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy].
-2025-03-18T20:58:40.409065400Z main DEBUG DefaultRolloverStrategy$Builder(max="10", min="null", fileIndex="null", compressionLevel="null", ={}, stopCustomActionsOnError="null", tempCompressedFilePattern="null", Configuration(C:\Users\sushanth\eclipse-workspace\core\target\test-classes\log4j2.xml))
-2025-03-18T20:58:40.410065100Z main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.RollingFileAppender].
-2025-03-18T20:58:40.415064900Z main DEBUG RollingFileAppender$Builder(fileName="./logs/core-logs.log", filePattern="./logs/core-logs-%d{MM-dd-yyyy}-%i.log.gz", append="null", locking="null", Policies(CompositeTriggeringPolicy(policies=[TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false), SizeBasedTriggeringPolicy(size=1048576)])), DefaultRolloverStrategy(DefaultRolloverStrategy(min=1, max=10, useMax=true)), advertise="null", advertiseUri="null", createOnDemand="null", filePermissions="null", fileOwner="null", fileGroup="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n), name="File", Configuration(C:\Users\sushanth\eclipse-workspace\core\target\test-classes\log4j2.xml), Filter=null, ={})
-2025-03-18T20:58:40.425057Z main TRACE New file './logs/core-logs.log' created = false
-2025-03-18T20:58:40.432067600Z main DEBUG Returning file creation time for C:\Users\sushanth\eclipse-workspace\core\.\logs\core-logs.log
-2025-03-18T20:58:40.433066100Z main DEBUG Starting RollingFileManager ./logs/core-logs.log
-2025-03-18T20:58:40.435066400Z main DEBUG PluginManager 'FileConverter' found 2 plugins
-2025-03-18T20:58:40.445060500Z main DEBUG Setting prev file time to 2025-03-18T10:29:53.806+0530
-2025-03-18T20:58:40.445060500Z main DEBUG Initializing triggering policy CompositeTriggeringPolicy(policies=[TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false), SizeBasedTriggeringPolicy(size=1048576)])
-2025-03-18T20:58:40.445060500Z main DEBUG Initializing triggering policy TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false)
-2025-03-18T20:58:40.447065300Z main TRACE PatternProcessor.getNextTime returning 2025/03/19-00:00:00.000, nextFileTime=2025/03/18-00:00:00.000, prevFileTime=1970/01/01-05:30:00.000, current=2025/03/19-02:28:40.447, freq=DAILY
-2025-03-18T20:58:40.449063800Z main TRACE PatternProcessor.getNextTime returning 2025/03/19-00:00:00.000, nextFileTime=2025/03/18-00:00:00.000, prevFileTime=2025/03/18-00:00:00.000, current=2025/03/19-02:28:40.449, freq=DAILY
-2025-03-18T20:58:40.450071900Z main DEBUG Initializing triggering policy SizeBasedTriggeringPolicy(size=1048576)
-2025-03-18T20:58:40.450071900Z main DEBUG Building Plugin[name=Appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
-2025-03-18T20:58:40.452076500Z main DEBUG createAppenders(={Console, File})
-2025-03-18T20:58:40.453068Z main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
-2025-03-18T20:58:40.454078600Z main DEBUG createAppenderRef(ref="File", level="null", Filter=null)
-2025-03-18T20:58:40.454078600Z main DEBUG Building Plugin[name=Logger, class=org.apache.logging.log4j.core.config.LoggerConfig].
-2025-03-18T20:58:40.459065400Z main DEBUG LoggerConfig$Builder(additivity="false", level="DEBUG", levelAndRefs="null", name="core.testCases", includeLocation="null", ={File}, ={}, Configuration(C:\Users\sushanth\eclipse-workspace\core\target\test-classes\log4j2.xml), Filter=null)
-2025-03-18T20:58:40.463074100Z main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
-2025-03-18T20:58:40.465061100Z main DEBUG createAppenderRef(ref="File", level="null", Filter=null)
-2025-03-18T20:58:40.465061100Z main DEBUG Building Plugin[name=Root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
-2025-03-18T20:58:40.467062700Z main DEBUG LoggerConfig$RootLogger$Builder(additivity="null", level="DEBUG", levelAndRefs="null", includeLocation="null", ={File}, ={}, Configuration(C:\Users\sushanth\eclipse-workspace\core\target\test-classes\log4j2.xml), Filter=null)
-2025-03-18T20:58:40.468064300Z main DEBUG Building Plugin[name=Loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
-2025-03-18T20:58:40.469067200Z main DEBUG createLoggers(={core.testCases, root})
-2025-03-18T20:58:40.472068500Z main DEBUG Configuration XmlConfiguration[location=C:\Users\sushanth\eclipse-workspace\core\target\test-classes\log4j2.xml, lastModified=2025-03-06T21:24:49.709Z] initialized
-2025-03-18T20:58:40.472068500Z main INFO Starting configuration XmlConfiguration[location=C:\Users\sushanth\eclipse-workspace\core\target\test-classes\log4j2.xml, lastModified=2025-03-06T21:24:49.709Z]...
-2025-03-18T20:58:40.472068500Z main INFO Start watching for changes to C:\Users\sushanth\eclipse-workspace\core\target\test-classes\log4j2.xml every 0 seconds
-2025-03-18T20:58:40.473068800Z main INFO Configuration XmlConfiguration[location=C:\Users\sushanth\eclipse-workspace\core\target\test-classes\log4j2.xml, lastModified=2025-03-06T21:24:49.709Z] started.
-2025-03-18T20:58:40.478153600Z main INFO Stopping configuration org.apache.logging.log4j.core.config.DefaultConfiguration@74287ea3...
-2025-03-18T20:58:40.478153600Z main TRACE DefaultConfiguration notified 1 ReliabilityStrategies that config will be stopped.
-2025-03-18T20:58:40.478153600Z main TRACE DefaultConfiguration stopping root LoggerConfig.
-2025-03-18T20:58:40.478153600Z main TRACE DefaultConfiguration notifying ReliabilityStrategies that appenders will be stopped.
-2025-03-18T20:58:40.479155600Z main TRACE DefaultConfiguration stopping remaining Appenders.
-2025-03-18T20:58:40.480158500Z main DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
-2025-03-18T20:58:40.480158500Z main DEBUG OutputStream closed
-2025-03-18T20:58:40.480158500Z main DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
-2025-03-18T20:58:40.480158500Z main DEBUG Appender DefaultConsole-1 stopped with status true
-2025-03-18T20:58:40.481154700Z main TRACE DefaultConfiguration stopped 1 remaining Appenders.
-2025-03-18T20:58:40.481154700Z main TRACE DefaultConfiguration cleaning Appenders from 1 LoggerConfigs.
-2025-03-18T20:58:40.481154700Z main INFO Configuration org.apache.logging.log4j.core.config.DefaultConfiguration@74287ea3 stopped.
-2025-03-18T20:58:40.485150600Z main TRACE Using default SystemClock for timestamps.
-2025-03-18T20:58:40.485150600Z main DEBUG org.apache.logging.log4j.core.util.SystemClock supports precise timestamps.
-2025-03-18T20:58:40.486152200Z main TRACE Using DummyNanoClock for nanosecond timestamps.
-2025-03-18T20:58:40.486152200Z main DEBUG Reconfiguration complete for context[name=73d16e93] at URI C:\Users\sushanth\eclipse-workspace\core\target\test-classes\log4j2.xml (org.apache.logging.log4j.core.LoggerContext@6d025197) with optional ClassLoader: null
-2025-03-18T20:58:40.486152200Z main DEBUG Shutdown hook enabled. Registering a new one.
-2025-03-18T20:58:40.490153700Z main DEBUG LoggerContext[name=73d16e93, org.apache.logging.log4j.core.LoggerContext@6d025197] started OK.
-2025-03-18T20:58:40.566165400Z main TRACE PatternProcessor.getNextTime returning 2025/03/20-00:00:00.000, nextFileTime=2025/03/19-00:00:00.000, prevFileTime=2025/03/18-00:00:00.000, current=2025/03/19-02:28:40.564, freq=DAILY
-2025-03-18T20:58:40.570168500Z main DEBUG Formatting file name. useCurrentTime=false. currentFileTime=1742331520567, prevFileTime=1742236200000
-2025-03-18T20:58:40.573168400Z main DEBUG Current file: ./logs/core-logs.log
-2025-03-18T20:58:40.580163800Z main DEBUG Eligible files: {}
-2025-03-18T20:58:40.581164200Z main DEBUG Formatting file name. useCurrentTime=false. currentFileTime=1742331520567, prevFileTime=1742236200000
-2025-03-18T20:58:40.581164200Z main TRACE DefaultRolloverStrategy.purge() took 14.0 milliseconds
-2025-03-18T20:58:40.591472700Z main DEBUG OutputStream closed
-2025-03-18T20:58:40.592480400Z main DEBUG RollingFileManager executing synchronous FileRenameAction[.\logs\core-logs.log to .\logs\core-logs-03-18-2025-1.log, renameEmptyFiles=false]
-2025-03-18T20:58:40.596487700Z main TRACE Renamed file C:\Users\sushanth\eclipse-workspace\core\.\logs\core-logs.log to C:\Users\sushanth\eclipse-workspace\core\.\logs\core-logs-03-18-2025-1.log with Files.move
-2025-03-18T20:58:40.597479800Z main DEBUG RollingFileManager executing async GzCompressAction[.\logs\core-logs-03-18-2025-1.log to .\logs\core-logs-03-18-2025-1.log.gz, deleteSource=true]
-2025-03-18T20:58:40.601477100Z main DEBUG Now writing to ./logs/core-logs.log at 2025-03-19T02:28:40.600+0530
+  <testcase name="verifyLogin[BBSSL92, bbssl@123, valid](1)" classname="core.testCases.TC001_LoginPage" time="4.755">
+    <system-out><![CDATA[2025-03-26T09:04:03.713834200Z main DEBUG Apache Log4j Core 2.24 initializing configuration XmlConfiguration[location=D:\core\target\test-classes\log4j2.xml, lastModified=2025-03-06T21:24:49Z]
+2025-03-26T09:04:03.717837200Z main DEBUG PluginManager 'Core' found 131 plugins
+2025-03-26T09:04:03.717837200Z main DEBUG PluginManager 'Level' found 0 plugins
+2025-03-26T09:04:03.725833600Z main DEBUG Building Plugin[name=Property, class=org.apache.logging.log4j.core.config.Property].
+2025-03-26T09:04:03.774831300Z main TRACE TypeConverterRegistry initializing.
+2025-03-26T09:04:03.775841700Z main DEBUG PluginManager 'TypeConverter' found 26 plugins
+2025-03-26T09:04:03.799835100Z main DEBUG createProperty(name="log-path", value="./logs", Configuration(D:\core\target\test-classes\log4j2.xml))
+2025-03-26T09:04:03.802842900Z main DEBUG Building Plugin[name=Property, class=org.apache.logging.log4j.core.config.Property].
+2025-03-26T09:04:03.802842900Z main DEBUG createProperty(name="log-pattern", value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n", Configuration(D:\core\target\test-classes\log4j2.xml))
+2025-03-26T09:04:03.803835500Z main DEBUG Building Plugin[name=Properties, class=org.apache.logging.log4j.core.config.PropertiesPlugin].
+2025-03-26T09:04:03.809836100Z main DEBUG configureSubstitutor(={log-path=./logs, log-pattern=%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n}, Configuration(D:\core\target\test-classes\log4j2.xml))
+2025-03-26T09:04:03.812835600Z main DEBUG PluginManager 'Lookup' found 16 plugins
+2025-03-26T09:04:03.812835600Z main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2025-03-26T09:04:03.836313900Z main DEBUG PatternLayout$Builder(pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n", PatternSelector=null, Configuration(D:\core\target\test-classes\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2025-03-26T09:04:03.837314300Z main DEBUG PluginManager 'Converter' found 45 plugins
+2025-03-26T09:04:03.845314600Z main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+2025-03-26T09:04:03.864320300Z main DEBUG ConsoleAppender$Builder(target="SYSTEM_OUT", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n), name="Console", Configuration(D:\core\target\test-classes\log4j2.xml), Filter=null, ={})
+2025-03-26T09:04:03.868319Z main DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
+2025-03-26T09:04:03.868319Z main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2025-03-26T09:04:03.870315100Z main DEBUG PatternLayout$Builder(pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n", PatternSelector=null, Configuration(D:\core\target\test-classes\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2025-03-26T09:04:03.871315700Z main DEBUG Building Plugin[name=TimeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.TimeBasedTriggeringPolicy].
+2025-03-26T09:04:03.876314500Z main DEBUG TimeBasedTriggeringPolicy$Builder(interval="null", modulate="null", maxRandomDelay="null")
+2025-03-26T09:04:03.877316600Z main DEBUG Building Plugin[name=SizeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy].
+2025-03-26T09:04:03.878313100Z main DEBUG createPolicy(size="1MB")
+2025-03-26T09:04:03.884314600Z main DEBUG Building Plugin[name=Policies, class=org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy].
+2025-03-26T09:04:03.885319400Z main DEBUG createPolicy(={TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false), SizeBasedTriggeringPolicy(size=1048576)})
+2025-03-26T09:04:03.886318600Z main DEBUG Building Plugin[name=DefaultRolloverStrategy, class=org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy].
+2025-03-26T09:04:03.901311400Z main DEBUG DefaultRolloverStrategy$Builder(max="10", min="null", fileIndex="null", compressionLevel="null", ={}, stopCustomActionsOnError="null", tempCompressedFilePattern="null", Configuration(D:\core\target\test-classes\log4j2.xml))
+2025-03-26T09:04:03.901311400Z main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.RollingFileAppender].
+2025-03-26T09:04:03.911314900Z main DEBUG RollingFileAppender$Builder(fileName="./logs/core-logs.log", filePattern="./logs/core-logs-%d{MM-dd-yyyy}-%i.log.gz", append="null", locking="null", Policies(CompositeTriggeringPolicy(policies=[TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false), SizeBasedTriggeringPolicy(size=1048576)])), DefaultRolloverStrategy(DefaultRolloverStrategy(min=1, max=10, useMax=true)), advertise="null", advertiseUri="null", createOnDemand="null", filePermissions="null", fileOwner="null", fileGroup="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n), name="File", Configuration(D:\core\target\test-classes\log4j2.xml), Filter=null, ={})
+2025-03-26T09:04:03.920316Z main TRACE New file './logs/core-logs.log' created = false
+2025-03-26T09:04:03.922316400Z main DEBUG Returning file creation time for D:\core\.\logs\core-logs.log
+2025-03-26T09:04:03.923317300Z main DEBUG Starting RollingFileManager ./logs/core-logs.log
+2025-03-26T09:04:03.926311300Z main DEBUG PluginManager 'FileConverter' found 2 plugins
+2025-03-26T09:04:03.933312Z main DEBUG Setting prev file time to 2025-03-26T12:45:37.055+0530
+2025-03-26T09:04:03.933312Z main DEBUG Initializing triggering policy CompositeTriggeringPolicy(policies=[TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false), SizeBasedTriggeringPolicy(size=1048576)])
+2025-03-26T09:04:03.934316800Z main DEBUG Initializing triggering policy TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false)
+2025-03-26T09:04:03.936317400Z main TRACE PatternProcessor.getNextTime returning 2025/03/27-00:00:00.000, nextFileTime=2025/03/26-00:00:00.000, prevFileTime=1970/01/01-05:30:00.000, current=2025/03/26-14:34:03.936, freq=DAILY
+2025-03-26T09:04:03.938311800Z main TRACE PatternProcessor.getNextTime returning 2025/03/27-00:00:00.000, nextFileTime=2025/03/26-00:00:00.000, prevFileTime=2025/03/26-00:00:00.000, current=2025/03/26-14:34:03.937, freq=DAILY
+2025-03-26T09:04:03.938311800Z main DEBUG Initializing triggering policy SizeBasedTriggeringPolicy(size=1048576)
+2025-03-26T09:04:03.938311800Z main DEBUG Building Plugin[name=Appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2025-03-26T09:04:03.939311400Z main DEBUG createAppenders(={Console, File})
+2025-03-26T09:04:03.939311400Z main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2025-03-26T09:04:03.940317700Z main DEBUG createAppenderRef(ref="File", level="null", Filter=null)
+2025-03-26T09:04:03.942319200Z main DEBUG Building Plugin[name=Logger, class=org.apache.logging.log4j.core.config.LoggerConfig].
+2025-03-26T09:04:03.951310900Z main DEBUG LoggerConfig$Builder(additivity="false", level="DEBUG", levelAndRefs="null", name="core.testCases", includeLocation="null", ={File}, ={}, Configuration(D:\core\target\test-classes\log4j2.xml), Filter=null)
+2025-03-26T09:04:03.956315100Z main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2025-03-26T09:04:03.957319600Z main DEBUG createAppenderRef(ref="File", level="null", Filter=null)
+2025-03-26T09:04:03.957319600Z main DEBUG Building Plugin[name=Root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+2025-03-26T09:04:03.962317400Z main DEBUG LoggerConfig$RootLogger$Builder(additivity="null", level="DEBUG", levelAndRefs="null", includeLocation="null", ={File}, ={}, Configuration(D:\core\target\test-classes\log4j2.xml), Filter=null)
+2025-03-26T09:04:03.963318600Z main DEBUG Building Plugin[name=Loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2025-03-26T09:04:03.964315500Z main DEBUG createLoggers(={core.testCases, root})
+2025-03-26T09:04:03.966319900Z main DEBUG Configuration XmlConfiguration[location=D:\core\target\test-classes\log4j2.xml, lastModified=2025-03-06T21:24:49Z] initialized
+2025-03-26T09:04:03.966319900Z main INFO Starting configuration XmlConfiguration[location=D:\core\target\test-classes\log4j2.xml, lastModified=2025-03-06T21:24:49Z]...
+2025-03-26T09:04:03.966319900Z main INFO Start watching for changes to D:\core\target\test-classes\log4j2.xml every 0 seconds
+2025-03-26T09:04:03.967312900Z main INFO Configuration XmlConfiguration[location=D:\core\target\test-classes\log4j2.xml, lastModified=2025-03-06T21:24:49Z] started.
+2025-03-26T09:04:03.969315600Z main INFO Stopping configuration org.apache.logging.log4j.core.config.DefaultConfiguration@3e62d773...
+2025-03-26T09:04:03.969315600Z main TRACE DefaultConfiguration notified 1 ReliabilityStrategies that config will be stopped.
+2025-03-26T09:04:03.970316300Z main TRACE DefaultConfiguration stopping root LoggerConfig.
+2025-03-26T09:04:03.970316300Z main TRACE DefaultConfiguration notifying ReliabilityStrategies that appenders will be stopped.
+2025-03-26T09:04:03.971315200Z main TRACE DefaultConfiguration stopping remaining Appenders.
+2025-03-26T09:04:03.971315200Z main DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+2025-03-26T09:04:03.972319900Z main DEBUG OutputStream closed
+2025-03-26T09:04:03.972319900Z main DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+2025-03-26T09:04:03.972319900Z main DEBUG Appender DefaultConsole-1 stopped with status true
+2025-03-26T09:04:03.972319900Z main TRACE DefaultConfiguration stopped 1 remaining Appenders.
+2025-03-26T09:04:03.973317Z main TRACE DefaultConfiguration cleaning Appenders from 1 LoggerConfigs.
+2025-03-26T09:04:03.973317Z main INFO Configuration org.apache.logging.log4j.core.config.DefaultConfiguration@3e62d773 stopped.
+2025-03-26T09:04:03.977312800Z main TRACE Using default SystemClock for timestamps.
+2025-03-26T09:04:03.977312800Z main DEBUG org.apache.logging.log4j.core.util.SystemClock supports precise timestamps.
+2025-03-26T09:04:03.978318400Z main TRACE Using DummyNanoClock for nanosecond timestamps.
+2025-03-26T09:04:03.978318400Z main DEBUG Reconfiguration complete for context[name=70dea4e] at URI D:\core\target\test-classes\log4j2.xml (org.apache.logging.log4j.core.LoggerContext@19835e64) with optional ClassLoader: null
+2025-03-26T09:04:03.979311Z main DEBUG Shutdown hook enabled. Registering a new one.
+2025-03-26T09:04:03.981312600Z main DEBUG LoggerContext[name=70dea4e, org.apache.logging.log4j.core.LoggerContext@19835e64] started OK.
 https://bbssl19.bbssl.com:33333/fininfra/ui/SSOLogin.jsp
+WebDriver initialized. Session ID: 3b86003791064faf610d4c0453bd9e5a
+NameSheet1
+Columns1
+Session ID in verifyLogin: 3b86003791064faf610d4c0453bd9e5a
+unameBBSSL92
+Entered HomepageCoreServer
+Dropdown[[EdgeDriver: MicrosoftEdge on windows (3b86003791064faf610d4c0453bd9e5a)] -> id: appSelect]
+Alert text: Are you sure you want to change the solution?
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Mar 19, 2025 2:28:46 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 26, 2025 2:34:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 134
 ]]></system-err>
   </testcase>
-  <testcase name="verifyLogin[BBSSL92, bbssl@123, valid](1)" classname="core.testCases.TC001_LoginPage" time="0.0">
-    <skipped message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: MicrosoftEdge=134.0.3124.72)&#10;Build info: version: &apos;4.28.1&apos;, revision: &apos;73f5ad48a2&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [ce18eb63157b975a36973fa6643d2f38, maximizeCurrentWindow {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 134.0.3124.72, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60480}, msedge: {msedgedriverVersion: 134.0.3124.72 (c81e2c3854de..., userDataDir: C:\Users\sushanth\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60480/devtoo..., se:cdpVersion: 134.0.3124.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ce18eb63157b975a36973fa6643d2f38"/>
-    <system-out><![CDATA[NameSheet1
-Columns1
-]]></system-out>
-  </testcase>
-  <testcase name="SelectFunction[HSIM, A, C, R000001058, M, 17, P, A, 30-12-2025, Y, Y, Y, F, INR, 1000](1)" classname="core.testCases.TC002_HSIMHomePage" time="0.08">
-    <system-out><![CDATA[Reusing existing WebDriver. Session ID: ce18eb63157b975a36973fa6643d2f38
+  <testcase name="runLoopTest[HSIM, [Ljava.lang.String;@36681447](1)" classname="core.testCases.TC002_HSIMHomePage" time="10.032">
+    <system-out><![CDATA[Reusing existing WebDriver. Session ID: 3b86003791064faf610d4c0453bd9e5a
 NameSheet1
-Columns HSIM2
-Session ID in HSIM: ce18eb63157b975a36973fa6643d2f38
-no such window: target window already closed
-from unknown error: web view not found
-  (Session info: MicrosoftEdge=134.0.3124.72)
+Columns HSIM4
+Entered switchM
+Verify Started
+Session ID in HSIM: HSIM
+FunctionalM
+uname
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='usertxt']"}
+  (Session info: MicrosoftEdge=134.0.3124.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.28.1', revision: '73f5ad48a2'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [ce18eb63157b975a36973fa6643d2f38, findElement {value=//input[@id='menuSelect'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 134.0.3124.72, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60480}, msedge: {msedgedriverVersion: 134.0.3124.72 (c81e2c3854de..., userDataDir: C:\Users\sushanth\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60480/devtoo..., se:cdpVersion: 134.0.3124.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ce18eb63157b975a36973fa6643d2f38
+Command: [3b86003791064faf610d4c0453bd9e5a, findElement {using=xpath, value=//input[@name='usertxt']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 134.0.3124.85, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52671}, msedge: {msedgedriverVersion: 134.0.3124.85 (4b32110e83d3..., userDataDir: C:\Users\Sushanth\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52671/devtoo..., se:cdpVersion: 134.0.3124.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3b86003791064faf610d4c0453bd9e5a
 ]]></system-out>
   </testcase>
-  <testcase name="SelectFunction[HSIM, V, C, R000001058, M, 17, P, A, 30-12-2025, Y, Y, Y, F, INR, 1000](2)" classname="core.testCases.TC002_HSIMHomePage" time="0.019">
-    <system-out><![CDATA[Session ID in HSIM: ce18eb63157b975a36973fa6643d2f38
-no such window: target window already closed
-from unknown error: web view not found
-  (Session info: MicrosoftEdge=134.0.3124.72)
+  <testcase name="runLoopTest[HSIM, [Ljava.lang.String;@12e0f1cb](2)" classname="core.testCases.TC002_HSIMHomePage" time="50.763">
+    <system-out><![CDATA[Entered switchA
+Menu NameHSIM
+FunctionfuncCodeA
+Inside driver switch
+Drop option and IDfuncCodeA
+dropdownOption[[EdgeDriver: MicrosoftEdge on windows (3b86003791064faf610d4c0453bd9e5a)] -> xpath: //select[@id='funcCode']]
+Inside submit Click
+Drop option and IDsiFreqTypeM
+dropdownOptionProxy element for: DefaultElementLocator 'By.xpath: //select[@id='funcCode']'
+Drop option and IDsiFreqStartDD17
+dropdownOptionProxy element for: DefaultElementLocator 'By.xpath: //select[@id='funcCode']'
+Drop option and IDsiFreqHldyStatP
+dropdownOptionProxy element for: DefaultElementLocator 'By.xpath: //select[@id='funcCode']'
+Drop option and IDexecTimeA
+dropdownOptionProxy element for: DefaultElementLocator 'By.xpath: //select[@id='funcCode']'
+unexpected alert open: {Alert text : The CIF ID [CB403] is invalid.}
+  (Session info: MicrosoftEdge=134.0.3124.85): The CIF ID [CB403] is invalid.
 Build info: version: '4.28.1', revision: '73f5ad48a2'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [ce18eb63157b975a36973fa6643d2f38, findElement {value=//input[@id='menuSelect'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 134.0.3124.72, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60480}, msedge: {msedgedriverVersion: 134.0.3124.72 (c81e2c3854de..., userDataDir: C:\Users\sushanth\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60480/devtoo..., se:cdpVersion: 134.0.3124.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ce18eb63157b975a36973fa6643d2f38
+Command: [3b86003791064faf610d4c0453bd9e5a, findElements {using=id, value=validateCrncyHoliday}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 134.0.3124.85, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52671}, msedge: {msedgedriverVersion: 134.0.3124.85 (4b32110e83d3..., userDataDir: C:\Users\Sushanth\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52671/devtoo..., se:cdpVersion: 134.0.3124.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3b86003791064faf610d4c0453bd9e5a
+]]></system-out>
+  </testcase>
+  <testcase name="runLoopTest[HSIM, [Ljava.lang.String;@5a02bfe3](3)" classname="core.testCases.TC002_HSIMHomePage" time="10.116">
+    <system-out><![CDATA[Entered switchV
+Verify Started
+Session ID in HSIM: HSIM
+FunctionalV
+uname
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='usertxt']"}
+  (Session info: MicrosoftEdge=134.0.3124.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [3b86003791064faf610d4c0453bd9e5a, findElement {using=xpath, value=//input[@name='usertxt']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 134.0.3124.85, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52671}, msedge: {msedgedriverVersion: 134.0.3124.85 (4b32110e83d3..., userDataDir: C:\Users\Sushanth\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52671/devtoo..., se:cdpVersion: 134.0.3124.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3b86003791064faf610d4c0453bd9e5a
+]]></system-out>
+  </testcase>
+  <testcase name="runLoopTest[HSIM, [Ljava.lang.String;@59b65dce](4)" classname="core.testCases.TC002_HSIMHomePage" time="0.962">
+    <system-out><![CDATA[Entered switchM
+Verify Started
+Session ID in HSIM: HSIM
+FunctionalM
+uname
+Unable to find element with locator By.xpath: //input[@name='usertxt']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: driver.version: RemoteWebDriver
 ]]></system-out>
   </testcase>
 </testsuite>

@@ -46,7 +46,7 @@ public class HSIMHomePage extends BasePage {
 		System.out.println("Drop option and ID" +id +dropDownSelect);
 		
 		WebElement dropdownOption = wait.until(ExpectedConditions.elementToBeClickable(By.id(id)));
-		wait.until(ExpectedConditions.elementToBeClickable(dropdownOption)).click();
+		dropdownOption.click();
 		System.out.println("dropdownOption" +funcCode);
 		
 	    Select dropdown = new Select(dropdownOption);

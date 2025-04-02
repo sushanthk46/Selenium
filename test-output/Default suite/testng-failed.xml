@@ -3,8 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+      <class name="core.testCases.TC003_HoaactdPage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="runtests" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- core.testCases.TC003_HoaactdPage -->
       <class name="core.testCases.TC001_LoginPage">
         <methods>
+          <include name="tearDown"/>
           <include name="setup"/>
           <include name="verifyLogin"/>
         </methods>

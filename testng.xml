@@ -3,10 +3,9 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="core.testCases.TC_022HSIMModifyPage"/>
-      <class name="core.testCases.TC002_HSIMHomePage"/>
-      <class name="core.testCases.TC_021HSIMVerifyPage"/>
       <class name="core.testCases.TC001_LoginPage"/>
+      <class name="core.testCases.TC003_HoaactdPage"/>
+      <class name="core.testCases.TC031_HoaacvtdPage"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
